@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.maxi.slidebanner.widget.AutoSlideViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="130dp" />
+
+    <com.maxi.slidebanner.widget.SlidePagerPiontsView
+        android:id="@+id/banner_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" />
+
+</RelativeLayout>
